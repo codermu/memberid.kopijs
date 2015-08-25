@@ -1,0 +1,28 @@
+{
+  "name": "memberid.kopijs",
+  "version": "1.0.0",
+  "homepage": "https://github.com/codermu/memberid.kopijs",
+  "description": "kopijs library for memberid project",
+  "main": "1.0.kopi.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "kopijs",
+    "kopi.js",
+    "memberid.kopijs",
+    "member.id",
+    "memberid.static"
+  ],
+  "authors": [
+    "henrisusanto"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
