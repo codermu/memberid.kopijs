@@ -1,5 +1,5 @@
 /*
-Kopi 1.0 Event Manager
+Kopi 1.0.1 Event Manager
 */
 
 function hashChanged () {
@@ -17,11 +17,17 @@ function hashChanged () {
 }
 Kopi.prototype.event = new function () {
   this.events = {}
+  this.remove=function(name,index){
+    if (index > -1) {
+      this.events[name].splice(index, 1);
+    }
+  }
   this.add = function (name, fn) {
     if (!this.events[name]) {
       this.events[name] = []
     }
     this.events[name].push(fn)
+    return this.events[name].length-1
   }
   this.trigger = function (name, param, callback, onNotFound) {
     console.log('trigger ' + name)

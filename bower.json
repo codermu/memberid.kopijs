@@ -1,5 +1,5 @@
 {
-  "name": "memberid.kopijs",
+  "name": "kopijs",
   "version": "1.0.0",
   "homepage": "https://github.com/codermu/memberid.kopijs",
   "description": "kopijs library for memberid project",
@@ -15,7 +15,7 @@
     "memberid.static"
   ],
   "authors": [
-    "henrisusanto"
+    "lukluk"
   ],
   "license": "MIT",
   "ignore": [
