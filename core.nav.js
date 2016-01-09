@@ -10,6 +10,7 @@ Kopi.prototype.navigate = function (to, noredirect) {
   var temp = []
   $('#message').html('')
   kopi.history.push(to)
+  localStorage.setItem('kopi.history',JSON.stringify(kopi.history))
   while( kopi.history[i] != to && i < kopi.history.length){
     console.log(kopi.history[i])
     temp.push(kopi.history[i])
