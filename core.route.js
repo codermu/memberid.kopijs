@@ -33,6 +33,11 @@ Kopi.prototype.route = new function () {
   }
   this.change = function (hash) {
     var i = 0
+    //insert google anaylitic
+    if (typeof ga == 'function') {
+      ga('set', 'page', document.location.hash)
+    }
+
     kopi.navigate(hash, true)
     if (kopi.routes[hash]) {
       if (!kopi.init) {
