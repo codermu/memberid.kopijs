@@ -1,8 +1,8 @@
 {
   "name": "kopijs",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "homepage": "https://github.com/lukluk/kopijs",
-  "description": "kopijs library for memberid project",
+  "description": "kopijs flexy js Framework",
   "main": "1.0.kopi.js",
   "moduleType": [
     "node"

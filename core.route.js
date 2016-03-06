@@ -47,7 +47,7 @@ Kopi.prototype.route = new function () {
           var h = kopi.routes[roothash][i]
           h && h(new Request(getQueryParams(document.location.hash)))
         }
-      }
+      }else
       for (var i in kopi.routes[hash]) {
         var h = kopi.routes[hash][i]
         h && h(new Request(getQueryParams(document.location.hash)))
