@@ -36,6 +36,7 @@ Kopi.prototype.route = new function () {
     //insert google anaylitic
     if (typeof ga == 'function') {
       ga('set', 'page', document.location.hash)
+      ga('send', 'pageview');
     }
 
     kopi.navigate(hash, true)
